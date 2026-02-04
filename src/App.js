@@ -25,7 +25,7 @@ export default function App() {
   const [userRole, setUserRole] = useState("user");
   const [borrows, setBorrows] = useState([]);
 
-  // 👤 States สำหรับ User เท่านั้น
+  
   const [activePage, setActivePage] = useState("home");
   const [selectedCat, setSelectedCat] = useState(null);
 
